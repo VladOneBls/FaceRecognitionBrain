@@ -9,8 +9,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <ParticlesBg className='particles' type="tadpole" bg={true} />
-      <ParticlesBg className='particles' type="lines" bg={true} />
+      <ParticlesBg className='particles' type="cobweb" bg={true} />
+      {/*<ParticlesBg className='particles' type="lines" bg={true} />*/}
       <Navigation />
       <Logo />
       <Rank />
